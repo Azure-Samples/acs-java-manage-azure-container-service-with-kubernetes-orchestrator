@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Containerservice
-- platforms: java
+description: "Azure Container Service sample for managing container service with Kubernetes orchestration."
+urlFragment: acs-java-manage-azure-container-service-with-kubernetes-orchestrator
 ---
 
 # Getting Started with Containerservice - Manage Container Service With Kubernetes Orchestrator - in Java #
