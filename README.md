@@ -8,7 +8,7 @@ description: "Azure Container Service sample for managing container service with
 urlFragment: acs-java-manage-azure-container-service-with-kubernetes-orchestrator
 ---
 
-# Getting Started with Containerservice - Manage Container Service With Kubernetes Orchestrator - in Java #
+# Manage Container Service With Kubernetes Orchestrator (Java)
 
 
   Azure Container Service sample for managing container service with Kubernetes orchestration.
@@ -17,19 +17,19 @@ urlFragment: acs-java-manage-azure-container-service-with-kubernetes-orchestrato
     - Update the number of agent virtual machines in an Azure Container Service
  
 
-## Running this Sample ##
+## Running this Sample
 
 To run this sample:
 
 Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
-    git clone https://github.com/Azure-Samples/acs-java-manage-azure-container-service-with-kubernetes-orchestrator.git
+```bash
+git clone https://github.com/Azure-Samples/acs-java-manage-azure-container-service-with-kubernetes-orchestrator.git
+cd acs-java-manage-azure-container-service-with-kubernetes-orchestrator
+mvn clean compile exec:java
+```
 
-    cd acs-java-manage-azure-container-service-with-kubernetes-orchestrator
-
-    mvn clean compile exec:java
-
-## More information ##
+## More information
 
 [http://azure.com/java](http://azure.com/java)
 
