@@ -9,6 +9,8 @@ extensions:
   platforms: java
 ---
 
+**Please use [azure-resourcemanager](https://aka.ms/azsdk/java/mgmt), see [sample](https://github.com/azure-samples/aks-java-deploy-image-from-acr-to-kubernetes/).**
+
 # Getting Started with Containerservice - Manage Container Service With Kubernetes Orchestrator - in Java #
 
 
